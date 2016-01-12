@@ -13,7 +13,6 @@
 		5CFD3D0C1B05CE7100DD9A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFD3D0A1B05CE7100DD9A93 /* Main.storyboard */; };
 		5CFD3D0E1B05CE7100DD9A93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFD3D0D1B05CE7100DD9A93 /* Images.xcassets */; };
 		5CFD3D111B05CE7100DD9A93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CFD3D0F1B05CE7100DD9A93 /* LaunchScreen.xib */; };
-		5CFD3D1D1B05CE7100DD9A93 /* LeanMessageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD3D1C1B05CE7100DD9A93 /* LeanMessageDemoTests.m */; };
 		5CFD3D301B05CF7C00DD9A93 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD3D2B1B05CF7C00DD9A93 /* LoginViewController.m */; };
 		5CFD3D311B05CF7C00DD9A93 /* BaseChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD3D2D1B05CF7C00DD9A93 /* BaseChatViewController.m */; };
 		6A6EBB411B84913200109FC5 /* MessageToolBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A6EBB3F1B84913200109FC5 /* MessageToolBarView.xib */; };
@@ -25,15 +24,133 @@
 		6AE6CF3C1B8C146B00477B8C /* MessageTableCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE6CF3B1B8C146B00477B8C /* MessageTableCells.xib */; };
 		6AE6CF411B8C416D00477B8C /* RightTextMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CF401B8C416D00477B8C /* RightTextMessageTableViewCell.m */; };
 		6AE6CF441B8C51EC00477B8C /* TextMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CF431B8C51EC00477B8C /* TextMessageTableViewCell.m */; };
+		9A1CB7B61C43BE1A00F5D183 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1CB7931C43BDE400F5D183 /* AVOSCloud.framework */; };
+		9A1CB7B71C43BE1A00F5D183 /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1CB7971C43BDE400F5D183 /* AVOSCloudIM.framework */; };
+		9A1CB7B91C43BE2800F5D183 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1CB7B81C43BE2800F5D183 /* SystemConfiguration.framework */; };
+		9A1CB7BB1C43BE3100F5D183 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1CB7BA1C43BE3100F5D183 /* MobileCoreServices.framework */; };
+		9A1CB7BD1C43BE3A00F5D183 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1CB7BC1C43BE3A00F5D183 /* CoreTelephony.framework */; };
+		9A1CB7BF1C43BE4200F5D183 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1CB7BE1C43BE4200F5D183 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5CFD3D171B05CE7100DD9A93 /* PBXContainerItemProxy */ = {
+		9A1CB7921C43BDE400F5D183 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5CFD3CF51B05CE7100DD9A93 /* Project object */;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419861A5A791300C5C6C4;
+			remoteInfo = AVOSCloud;
+		};
+		9A1CB7941C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419911A5A791300C5C6C4;
+			remoteInfo = AVOSCloudTests;
+		};
+		9A1CB7961C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419C31A5A796000C5C6C4;
+			remoteInfo = AVOSCloudIM;
+		};
+		9A1CB7981C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419CD1A5A796000C5C6C4;
+			remoteInfo = AVOSCloudIMTests;
+		};
+		9A1CB79A1C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C255D261AE9F815008A6FFC;
+			remoteInfo = AVOSCloudCrashReporting;
+		};
+		9A1CB79C1C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7085D3551BEA162300449DC1;
+			remoteInfo = AVOSCloudDynamic;
+		};
+		9A1CB79E1C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7085D32E1BEA15B200449DC1;
+			remoteInfo = AVOSCloudIMDynamic;
+		};
+		9A1CB7A01C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7085D50C1BEA205700449DC1;
+			remoteInfo = "AVOSCloudIMTests-Dynamic";
+		};
+		9A1CB7A21C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7085D33B1BEA15C400449DC1;
+			remoteInfo = AVOSCloudCrashReportingDynamic;
+		};
+		9A1CB7A41C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 70CA7F681BDE2DC3000A3B21;
+			remoteInfo = "AVOSCloud-OSX";
+		};
+		9A1CB7A61C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 70F315321BDE503B00D691B3;
+			remoteInfo = "AVOSCloudTests-OSX";
+		};
+		9A1CB7A81C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 704F3B6E1BE0D0180033245C;
+			remoteInfo = "AVOSCloudIM-OSX";
+		};
+		9A1CB7AA1C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 704F3B771BE0D0180033245C;
+			remoteInfo = "AVOSCloudIMTests-OSX";
+		};
+		9A1CB7AC1C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83D8CF551C17DAF50094279D;
+			remoteInfo = "AVOSCloud-tvOS";
+		};
+		9A1CB7AE1C43BDE400F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8320F95C1C1918C60024B45E;
+			remoteInfo = "AVOSCloud-watchOS";
+		};
+		9A1CB7B21C43BE0D00F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 5CFD3CFC1B05CE7100DD9A93;
-			remoteInfo = LeanMessageDemo;
+			remoteGlobalIDString = 8C8419851A5A791300C5C6C4;
+			remoteInfo = AVOSCloud;
+		};
+		9A1CB7B41C43BE0D00F5D183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8419C21A5A796000C5C6C4;
+			remoteInfo = AVOSCloudIM;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -46,7 +163,6 @@
 		5CFD3D0B1B05CE7100DD9A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CFD3D0D1B05CE7100DD9A93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5CFD3D101B05CE7100DD9A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		5CFD3D161B05CE7100DD9A93 /* LeanMessageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanMessageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFD3D1B1B05CE7100DD9A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CFD3D1C1B05CE7100DD9A93 /* LeanMessageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanMessageDemoTests.m; sourceTree = "<group>"; };
 		5CFD3D2A1B05CF7C00DD9A93 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -69,6 +185,11 @@
 		6AE6CF401B8C416D00477B8C /* RightTextMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTextMessageTableViewCell.m; sourceTree = "<group>"; };
 		6AE6CF421B8C51EC00477B8C /* TextMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextMessageTableViewCell.h; sourceTree = "<group>"; };
 		6AE6CF431B8C51EC00477B8C /* TextMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextMessageTableViewCell.m; sourceTree = "<group>"; };
+		9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AVOS.xcodeproj; path = "../../../../PR/iOS-SDK-2015-10-12-14-06-22/ios-sdk/AVOS/AVOS.xcodeproj"; sourceTree = "<group>"; };
+		9A1CB7B81C43BE2800F5D183 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9A1CB7BA1C43BE3100F5D183 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9A1CB7BC1C43BE3A00F5D183 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9A1CB7BE1C43BE4200F5D183 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AC68B1AE58AE132334393CD3 /* libPods-LeanMessageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeanMessageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0A5963552C26D0D12DA4BD /* Pods-LeanMessageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanMessageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeanMessageDemo/Pods-LeanMessageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F58CB5C0E75A1C8FD246846C /* Pods-LeanMessageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanMessageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeanMessageDemo/Pods-LeanMessageDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,14 +200,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A1CB7BF1C43BE4200F5D183 /* CoreLocation.framework in Frameworks */,
+				9A1CB7BD1C43BE3A00F5D183 /* CoreTelephony.framework in Frameworks */,
+				9A1CB7BB1C43BE3100F5D183 /* MobileCoreServices.framework in Frameworks */,
+				9A1CB7B91C43BE2800F5D183 /* SystemConfiguration.framework in Frameworks */,
+				9A1CB7B61C43BE1A00F5D183 /* AVOSCloud.framework in Frameworks */,
+				9A1CB7B71C43BE1A00F5D183 /* AVOSCloudIM.framework in Frameworks */,
 				4CE9797B9937C5C062258E79 /* libPods-LeanMessageDemo.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CFD3D131B05CE7100DD9A93 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +225,7 @@
 		5CFD3CF41B05CE7100DD9A93 = {
 			isa = PBXGroup;
 			children = (
+				9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */,
 				5CFD3CFF1B05CE7100DD9A93 /* LeanMessageDemo */,
 				5CFD3D191B05CE7100DD9A93 /* LeanMessageDemoTests */,
 				5CFD3CFE1B05CE7100DD9A93 /* Products */,
@@ -117,7 +238,6 @@
 			isa = PBXGroup;
 			children = (
 				5CFD3CFD1B05CE7100DD9A93 /* LeanMessage.app */,
-				5CFD3D161B05CE7100DD9A93 /* LeanMessageDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,9 +317,35 @@
 			name = TabelCellView;
 			sourceTree = "<group>";
 		};
+		9A1CB7801C43BDE300F5D183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A1CB7931C43BDE400F5D183 /* AVOSCloud.framework */,
+				9A1CB7951C43BDE400F5D183 /* AVOSCloudTests.xctest */,
+				9A1CB7971C43BDE400F5D183 /* AVOSCloudIM.framework */,
+				9A1CB7991C43BDE400F5D183 /* AVOSCloudIMTests.xctest */,
+				9A1CB79B1C43BDE400F5D183 /* AVOSCloudCrashReporting.framework */,
+				9A1CB79D1C43BDE400F5D183 /* AVOSCloud.framework */,
+				9A1CB79F1C43BDE400F5D183 /* AVOSCloudIM.framework */,
+				9A1CB7A11C43BDE400F5D183 /* AVOSCloudIMTests-Dynamic.xctest */,
+				9A1CB7A31C43BDE400F5D183 /* AVOSCloudCrashReporting.framework */,
+				9A1CB7A51C43BDE400F5D183 /* AVOSCloud.framework */,
+				9A1CB7A71C43BDE400F5D183 /* AVOSCloudTests-OSX.xctest */,
+				9A1CB7A91C43BDE400F5D183 /* AVOSCloudIM.framework */,
+				9A1CB7AB1C43BDE400F5D183 /* AVOSCloudIMTests-OSX.xctest */,
+				9A1CB7AD1C43BDE400F5D183 /* AVOSCloud.framework */,
+				9A1CB7AF1C43BDE400F5D183 /* AVOSCloud.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B70DEED526DE9240B0E0B910 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A1CB7BE1C43BE4200F5D183 /* CoreLocation.framework */,
+				9A1CB7BC1C43BE3A00F5D183 /* CoreTelephony.framework */,
+				9A1CB7BA1C43BE3100F5D183 /* MobileCoreServices.framework */,
+				9A1CB7B81C43BE2800F5D183 /* SystemConfiguration.framework */,
 				AC68B1AE58AE132334393CD3 /* libPods-LeanMessageDemo.a */,
 			);
 			name = Frameworks;
@@ -221,29 +367,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				9A1CB7B31C43BE0D00F5D183 /* PBXTargetDependency */,
+				9A1CB7B51C43BE0D00F5D183 /* PBXTargetDependency */,
 			);
 			name = LeanMessageDemo;
 			productName = LeanMessageDemo;
 			productReference = 5CFD3CFD1B05CE7100DD9A93 /* LeanMessage.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5CFD3D151B05CE7100DD9A93 /* LeanMessageDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CFD3D231B05CE7100DD9A93 /* Build configuration list for PBXNativeTarget "LeanMessageDemoTests" */;
-			buildPhases = (
-				5CFD3D121B05CE7100DD9A93 /* Sources */,
-				5CFD3D131B05CE7100DD9A93 /* Frameworks */,
-				5CFD3D141B05CE7100DD9A93 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5CFD3D181B05CE7100DD9A93 /* PBXTargetDependency */,
-			);
-			name = LeanMessageDemoTests;
-			productName = LeanMessageDemoTests;
-			productReference = 5CFD3D161B05CE7100DD9A93 /* LeanMessageDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -251,16 +381,12 @@
 		5CFD3CF51B05CE7100DD9A93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = LeanCloud;
 				TargetAttributes = {
 					5CFD3CFC1B05CE7100DD9A93 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = Y6X8P44TM5;
-					};
-					5CFD3D151B05CE7100DD9A93 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 5CFD3CFC1B05CE7100DD9A93;
 					};
 				};
 			};
@@ -275,13 +401,126 @@
 			mainGroup = 5CFD3CF41B05CE7100DD9A93;
 			productRefGroup = 5CFD3CFE1B05CE7100DD9A93 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9A1CB7801C43BDE300F5D183 /* Products */;
+					ProjectRef = 9A1CB77F1C43BDE300F5D183 /* AVOS.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5CFD3CFC1B05CE7100DD9A93 /* LeanMessageDemo */,
-				5CFD3D151B05CE7100DD9A93 /* LeanMessageDemoTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9A1CB7931C43BDE400F5D183 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = 9A1CB7921C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB7951C43BDE400F5D183 /* AVOSCloudTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AVOSCloudTests.xctest;
+			remoteRef = 9A1CB7941C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB7971C43BDE400F5D183 /* AVOSCloudIM.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudIM.framework;
+			remoteRef = 9A1CB7961C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB7991C43BDE400F5D183 /* AVOSCloudIMTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AVOSCloudIMTests.xctest;
+			remoteRef = 9A1CB7981C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB79B1C43BDE400F5D183 /* AVOSCloudCrashReporting.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudCrashReporting.framework;
+			remoteRef = 9A1CB79A1C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB79D1C43BDE400F5D183 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = 9A1CB79C1C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB79F1C43BDE400F5D183 /* AVOSCloudIM.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudIM.framework;
+			remoteRef = 9A1CB79E1C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB7A11C43BDE400F5D183 /* AVOSCloudIMTests-Dynamic.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloudIMTests-Dynamic.xctest";
+			remoteRef = 9A1CB7A01C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB7A31C43BDE400F5D183 /* AVOSCloudCrashReporting.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudCrashReporting.framework;
+			remoteRef = 9A1CB7A21C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB7A51C43BDE400F5D183 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = 9A1CB7A41C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB7A71C43BDE400F5D183 /* AVOSCloudTests-OSX.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloudTests-OSX.xctest";
+			remoteRef = 9A1CB7A61C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB7A91C43BDE400F5D183 /* AVOSCloudIM.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudIM.framework;
+			remoteRef = 9A1CB7A81C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB7AB1C43BDE400F5D183 /* AVOSCloudIMTests-OSX.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloudIMTests-OSX.xctest";
+			remoteRef = 9A1CB7AA1C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB7AD1C43BDE400F5D183 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = 9A1CB7AC1C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1CB7AF1C43BDE400F5D183 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = 9A1CB7AE1C43BDE400F5D183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5CFD3CFB1B05CE7100DD9A93 /* Resources */ = {
@@ -293,13 +532,6 @@
 				5CFD3D0C1B05CE7100DD9A93 /* Main.storyboard in Resources */,
 				5CFD3D111B05CE7100DD9A93 /* LaunchScreen.xib in Resources */,
 				5CFD3D0E1B05CE7100DD9A93 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CFD3D141B05CE7100DD9A93 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,21 +589,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CFD3D121B05CE7100DD9A93 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CFD3D1D1B05CE7100DD9A93 /* LeanMessageDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5CFD3D181B05CE7100DD9A93 /* PBXTargetDependency */ = {
+		9A1CB7B31C43BE0D00F5D183 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5CFD3CFC1B05CE7100DD9A93 /* LeanMessageDemo */;
-			targetProxy = 5CFD3D171B05CE7100DD9A93 /* PBXContainerItemProxy */;
+			name = AVOSCloud;
+			targetProxy = 9A1CB7B21C43BE0D00F5D183 /* PBXContainerItemProxy */;
+		};
+		9A1CB7B51C43BE0D00F5D183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AVOSCloudIM;
+			targetProxy = 9A1CB7B41C43BE0D00F5D183 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -416,6 +645,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -431,7 +661,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -468,7 +698,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -481,14 +711,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_CODE_COVERAGE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = LeanMessageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CYLTabBarController\"",
+					"-licucore",
+					"-lz",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leancloud.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LeanMessage;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -498,48 +741,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_CODE_COVERAGE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = LeanMessageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CYLTabBarController\"",
+					"-licucore",
+					"-lz",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leancloud.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LeanMessage;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		5CFD3D241B05CE7100DD9A93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LeanMessageDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanMessageDemo.app/LeanMessageDemo";
-			};
-			name = Debug;
-		};
-		5CFD3D251B05CE7100DD9A93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LeanMessageDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanMessageDemo.app/LeanMessageDemo";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -560,15 +782,6 @@
 			buildConfigurations = (
 				5CFD3D211B05CE7100DD9A93 /* Debug */,
 				5CFD3D221B05CE7100DD9A93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5CFD3D231B05CE7100DD9A93 /* Build configuration list for PBXNativeTarget "LeanMessageDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5CFD3D241B05CE7100DD9A93 /* Debug */,
-				5CFD3D251B05CE7100DD9A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

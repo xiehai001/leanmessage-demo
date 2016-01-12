@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AVOSCloudIM.h>
 
 static NSString *kLoginSelfIdKey = @"selfId";
 

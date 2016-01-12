@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AVOSCloudIM.h>
 #import "MessageToolBarView.h"
 
 static NSInteger kPageSize = 5;

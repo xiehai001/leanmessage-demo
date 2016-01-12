@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 #import <QuartzCore/QuartzCore.h>
-
+#import "AVOSCloudIM/AVOSCloudIM.h"
 @interface LoginViewController ()
 
 @end

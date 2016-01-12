@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "AVOSCloud/AVOSCloud.h"
+//#import "AVOSCloudIM/AVOSCloudIM.h"
 
 //#define kApplicationId @"uay57kigwe0b6f5n0e1d4z4xhydsml3dor24bzwvzr57wdap"
 //#define kClientKey @"kfgz7jjfsk55r5a8a3y4ttd3je1ko11bkibcikonk32oozww"

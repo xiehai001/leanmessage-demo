@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AVOSCloudIM.h>
+#import "AVOSCloudIM/AVOSCloudIM.h"
 
 #import "TextMessageTableViewCell.h"
 

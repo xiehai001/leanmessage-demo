@@ -7,6 +7,7 @@
 //
 
 #import "ChatRoomViewController.h"
+#import "AVOSCloud/AVOSCloud.h"
 
 #define kConversationId @"55cd829e60b2b52cda834469"
 
